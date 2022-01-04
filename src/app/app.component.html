@@ -1,4 +1,8 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div>
+  <hello name="{{ title }}"></hello>
+  <ul>
+    <li *ngFor="let emp of employees">
+      {{ emp.name }}
+    </li>
+  </ul>
+</div>
